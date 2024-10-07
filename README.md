@@ -1,4 +1,4 @@
-# credit-risk-classification
+# Credit Risk Classification
 
 # Overview of the Analysis
 The purpose of this analysis is to evaluate the performance of a machine learning model designed to predict loan statuses as either healthy or high-risk, based on a variety of financial data. This analysis focuses on using a Logistic Regression model to classify loans into two categories:
@@ -37,4 +37,4 @@ The Logistic Regression model demonstrated strong performance in predicting loan
 - The model is particularly well-suited for predicting healthy loans (0), as it correctly identifies almost all healthy loans and has a perfect precision score.
 - For high-risk loans (1), the model still performs well, though there is a slightly lower precision (0.86), meaning some healthy loans might be falsely classified as high-risk. However, with a recall score of 0.94, the model is very effective at identifying actual high-risk loans, which is critical in a financial context where failing to identify a risky loan can have significant consequences.
 
-### Given its strong performance, particularly in identifying high-risk loans with a high recall score, I recommend using this model for the company’s loan risk predictions. The model’s ability to catch most high-risk loans while maintaining strong overall accuracy makes it a valuable tool for minimizing financial risks.
+Given its strong performance, particularly in identifying high-risk loans with a high recall score, I recommend using this model for the company’s loan risk predictions. The model’s ability to catch most high-risk loans while maintaining strong overall accuracy makes it a valuable tool for minimizing financial risks.
